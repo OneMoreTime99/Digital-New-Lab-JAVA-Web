@@ -1,0 +1,49 @@
+.side-bar
+{
+    width: 230px;
+    height: auto;
+    padding: 10px;
+}
+.new
+{
+    width: 100%;
+    height: auto;
+    font-size: 13px;
+}
+.new-title
+{
+    color: #42554e;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.synopsis
+{
+    color: black;
+    font-size: 12px;
+}
+.searchBox
+{
+    border: dashed 1px;
+}
+.searchButton
+{
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    color: #999999;
+}
+.last-article
+{
+    padding-bottom: 20px;
+}
+
+.last-article a
+{
+    color: #42554e;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+

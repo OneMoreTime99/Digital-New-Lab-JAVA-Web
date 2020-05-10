@@ -1,0 +1,108 @@
+body
+{
+    font-family: sans-serif;
+    background-color: #E7E7E7;
+}
+.container
+{
+    background-image: url(../images/bg.jpg);
+    background-repeat: repeat-y;
+    width: 886px;
+    height: auto;
+    margin: 0 auto;
+}
+.content
+{
+    position: relative;
+    width: 760px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+}
+.main
+{
+    width: 485px;
+    padding: 20px;
+    border-right: dotted 2px;
+    border-color: #e0e0e0;
+}
+.title
+{
+    font-size: 18px;
+    color: #42554e;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.signature
+{
+    float: right;
+    color: #42554e;
+    font-size: 10px;
+    margin-top: 5px;
+}
+.image img
+{
+    width: 400px;
+    height: auto;
+    padding-bottom: 20px;
+}
+.post
+{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 12px;
+}
+
+.icon1
+{
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background-image: url(../images/comment.gif);
+    background-repeat: no-repeat;
+}
+.icon2
+{
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background-image: url(../images/timeicon.gif);
+    background-repeat: no-repeat;
+}
+.image-search img
+{
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+.image-search
+{
+    font-size: 13px;
+}
+.isChoose
+{
+    color: red !important;
+    pointer-events: none;
+    border: none;
+    text-decoration: underline;
+    background-color: #fff;
+    font-family: 'Times New Roman',Helvetica,Arial,sans-serif;
+    font-size: 20px;
+}
+.paging
+{
+    margin-left:0; 
+}
+.notChoose
+{
+    color: blue;
+    text-decoration: none;
+    border: none;
+    background-color: #fff;
+    font-family: 'Times New Roman',Helvetica,Arial,sans-serif;
+    font-size: 20px;
+}
+.title-search a
+{
+    text-decoration: none;
+}
